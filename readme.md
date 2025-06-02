@@ -55,7 +55,7 @@ Improve accessibility and semantic HTML structure
 Convert to a templated system (e.g., React, Next.js) for dynamic features
 
 📸 Preview
-![SamIdya Homepage Preview](img/preview.jpg)
+![SamIdya Homepage Preview](img/preview.png)
 
 📄 License
 This project is for educational or personal use. Feel free to use and modify with credit.
