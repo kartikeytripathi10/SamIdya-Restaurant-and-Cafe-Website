@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SamIdya</title>
+</head>
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Asap:wght@600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Sen&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital@1&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap" rel="stylesheet">
+<style>
+    body{
+        color: white;
+        margin: 0px;
+        padding: 0px;
+        background-image: url(img/eggs-1467284_960_720.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        height: 4100px;
+    }
+    .left{
+        position: absolute;
+        left: 200px;
+        top: 2px;
+        display: inline;
+        /* border: 2px solid red; */
+    }
+    .left img{
+        width: 150px;
+        cursor: pointer;
+    }
+    .center{
+        display: block;
+        width: 33%;
+        margin: 50px auto;
+        /* border: 2px solid orange; */
+        font-family: 'Sen', sans-serif;
+    }
+    .right{
+        position: absolute;
+        right: 200px;
+        top: 55px;
+        display: inline;
+        /* border: 2px solid purple; */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        font-size: 18px;
+        display: inline-block;
+    }
+    .navbar li a{
+        color: white;
+        text-decoration: none;
+        padding: 25px 25px;
+    }
+    .navbar li a:hover, .navbar li a.active{
+        color: rgb(241, 219, 56);
+    }
+    .but{
+        color: white;
+        background-color: rgb(241, 219, 56);
+        padding: 11px 10px;
+        cursor: pointer;
+        border: 0px;
+        font-family: 'Asap', sans-serif;
+    }
+    .but:hover, .but:active{
+        color: rgb(241, 219, 56);
+        background-color: white;
+    }
+    .midcon{
+        display:block;
+        margin: 200px auto;
+        width: 33%;
+        
+        /* border: 2px solid blue; */
+    }
+    .midcon h1{
+        margin: auto;
+        text-align: center;
+        font-size: 90px;
+        font-family: 'Acme', sans-serif;
+    }
+    .midcon p{
+        text-align: center;
+        font-size: 25px;
+        font-family: 'Karla', sans-serif;
+        }
+    .container{
+        background-color: #7e7364;
+        text-align: center;
+        color: black;
+        position: absolute;
+        right: 140px;
+        top: 873px;
+        width: 40%;
+        height: 1000px;
+        margin: 140px 33px;
+        padding: 23px;
+        /* border: 2px solid brown; */
+    }
+    .heading{
+        font-family: 'Playfair Display', serif;
+        font-size: 35px;
+        margin-top: 92px;
+        margin-bottom: 30px;
+        color: #505050;
+    }
+    .food{
+        font-family: 'Noto Sans HK', sans-serif;
+        font-size: 20px;
+        margin-top: 50px;
+    }
+    .sidestuf{
+        text-align: center;
+        color: black;
+        position: absolute;
+        left: 54px;
+        top: 873px;
+        width: 30.8%;
+        height: 1000px;
+        margin: 140px 33px;
+        padding: 23px;
+        /* border: 2px solid brown; */
+    }
+    .sidestuf h5{
+        margin-top: 293px;
+        font-size: 44px;
+        font-family: 'Playfair Display', serif;
+    }
+    .sidestuf p{
+        font-family: 'Noto Sans HK', sans-serif;
+        color: rgb(94, 94, 94);
+        margin-top: -59px;
+        font-size: 20px;
+        padding: 64px;
+    }
+    .butside{
+        color: white;
+        font-family: 'Noto Sans HK', sans-serif;
+        font-size: 18px;
+        margin-left: 160px;
+        margin-top: 10px;
+        border: 0px;
+        padding: 11px;
+        background-color: #7e7364;
+    }
+    .butside:active, .butside:hover{
+        border: 1px solid #7e7364;
+        background-color: white;
+        color:#7e7364
+    }
+    .extd{
+        
+        color: black;
+        text-align: center;
+        height: 768px;
+        width: 1255px;
+        position: relative;
+        top: 1427px;
+        left: 87px;
+        /* border: 2px solid blue; */
+    }
+    .extd h6{
+        margin-top: 50px;
+        font-size: 40px;
+        font-family:cursive ;
+    }
+    .extd p{
+        color:rgb(94, 94, 94);
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        margin: -59px auto;
+        text-align: center;
+        display: block;
+        width: 600px;
+    }
+    .img1{
+        height: 226.18;
+        width: 349.99px;
+        position: relative;
+        top: -111px;
+    }
+    .img2{
+        height: 226.18;
+        width: 349.99px;
+        position: relative;
+        top: -93px;
+    }
+    .img3{
+        height: 466.79px;
+        width: 349.99px;
+        position: relative;
+        top: 131px;
+        left: -15px;
+    }
+    .img4{
+        height: 466.79px;
+        width: 349.99px;
+        position: relative;
+        top: 131px;
+        left: 15px;
+        }
+    .form{
+        background-color: #7e7364;
+        text-align: center;
+        color: black;
+        position: absolute;
+        left: 140px;
+        top: 2757px;
+        width: 40%;
+        height: 700px;
+        margin: 140px 33px;
+        padding: 23px;
+        /* border: 2px solid brown; */
+    }
+    .formgr input{
+        height: 30px;
+        width: 500px;
+        margin: 8px 50px;
+    }
+    .formgr textarea{
+        margin: 8px 50px;
+    }
+    #formdate{
+        width: 240px;
+        position: relative;
+        left: -131px;
+    }
+    #formgu{
+        width: 240px;
+        position: relative;
+        left: -131px;
+    }
+    #formtime{
+        width: 240px;
+        position: relative;
+        top: -437px;
+        right: -129px;
+    }
+    #formbd{
+        width: 240px;
+        position: relative;
+        top: -438px;
+        right: -129px;
+    }
+    #formname{
+        margin-top: 95px;
+    }
+    .form button{
+        border: 0px;
+        background-color: black;
+        color: white;
+        height: 50px;
+        width: 150px;
+        letter-spacing: 6px;
+        font-size: 15px;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        position: relative;
+        top: -101px;
+        right: -178px;
+    }
+    .form button:active, .form button:hover{
+        border: 2px solid rgb(94, 94, 94);
+        background-color: white;
+        color: rgb(94, 94, 94);
+    }
+    .sidestuf2{
+        text-align: left;
+        color: black;
+        position: relative;
+        right: -709px;
+        top: -722px;
+        width: 43.8%;
+        height: 357px;
+        margin: 140px 33px;
+        padding: 23px;
+        /* border: 2px solid brown; */
+    }
+    .sidestuf2 p{
+        font-size: 40px;
+        font-family: 'Playfair Display', serif;
+        font-weight: 25px;
+        margin: 7px;
+    }
+    .last{
+        position: relative;
+        top: -520px;
+        left: -196px;
+        height: 339px;
+        width: 1519px;
+        background-color: rgb(44, 43, 43);
+        /* border: 2px solid brown; */
+    }
+
+</style>
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="img/download-removebg-preview.png" alt="">
+        </div>
+        <div class="center">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <button class="but">CONTACT US</button>
+        </div>
+    </header>
+    <div class="midcon">
+        <h1>SAM IDYA</h1>
+        <hr>
+        <P>Family Restaurant and Cafe</P>
+    </div>
+    <div class="container">
+        <div>
+            <h3 class="heading">OUR SPECIAL</h3>
+            <p class="food">Vegetable Lasagna ........... &#8377;420</p>
+            <p class="food">Special Chilli Chicken ........... &#8377;350</p>
+            
+            <h3 class="heading">COMBO OFFER</h3>
+            <p class="food">Chicken Krisper Burger Combo ........... &#8377;550</p>
+            <p class="food">Strips & Rice Combo ........... &#8377;320</p>
+            
+            <h3 class="heading">THALI</h3>
+            <p class="food">Veg Thali ........... &#8377;445</p>
+            <p class="food">Non-Veg Thali ........... &#8377;485</p>
+
+        </div>
+    </div>
+    <div class="sidestuf">
+        <h5>TESTIMONIAL</h5>
+        <p>A great restaurant is one that just makes you feel like you're not sure whether you went out or you came home and confuses you. If it can do both of those things at the same time, you're hooked.</p>
+        <button class="butside">FULL MENU</button>
+    </div>
+    <div class="extd">
+        <h6>THE RESTAURANT</h6>
+        <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+        <img src="img/istockphoto-1270956984-612x612.jpg"  class="img3">
+        <img src="img/istockphoto-1138388839-612x612.jpg"  class="img1">
+        <img src="img/istockphoto-1437118778-612x612.jpg"  class="img4">
+        <img src="img/coffee-g0c1ba15b1_1920.jpg"  class="img2">
+    </div>
+    <div class="form">
+        <form action="noaction.js">
+            <div class="formgr">
+                <input type="text" name="" id="formname" placeholder="Event Name">
+            </div>
+            <div class="formgr">
+                <input type="date" name="" id="formdate" placeholder="Event date">
+            </div>
+            <div class="formgr">
+                <input type="text" name="" id="formgu" placeholder="Number of Guests">
+            </div>
+            <div class="formgr">
+                <input type="text" name="" id="formcm" placeholder="Contact Name">
+            </div>
+            <div class="formgr">
+                <input type="email" name="" id="formemail" placeholder="Email Address">
+            </div>
+            <div class="formgr">
+                <input type="text" name="" id="formph" placeholder="Phone Number">
+            </div>
+            <div class="formgr">
+                <textarea name="" id="" cols="66" rows="10" placeholder="Extra Detail of Event"></textarea>
+            </div>
+            <div class="formgr">
+                <input type="datetime" name="" id="formtime" placeholder="Event Time">
+            </sdiv>
+            <div class="formgr">
+                <input type="text" name="" id="formbd" placeholder="Budget">
+            </div>
+            <div>
+                <button class="formbut">SUBMIT</button>
+            </div>
+        </form>
+    </div>
+    <div class="sidestuf2">
+        <p>BOOK A</p>
+        <p>TABLE OR</p>
+        <p>HALL</p>
+        <p>FOR</p>
+        <p>PRIVATE</p>
+        <p>DINING</p>
+    </div>
+    <div class="last">
+
+    </div>
+    
+</body>
+</html>
