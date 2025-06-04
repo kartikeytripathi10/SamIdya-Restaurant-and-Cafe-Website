@@ -58,7 +58,7 @@ SamIdya/
 
 ## 📸 Preview
 
-![SamIdya Homepage Preview](img/preview.jpg)
+![SamIdya Homepage Preview](img/preview.png)
 
 ---
 
